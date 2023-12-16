@@ -4,9 +4,9 @@ import Link from 'next/link';
 export default function Layout({ children }: { children: React.ReactNode }) {
   return (
     <div className="flex h-screen flex-col md:flex-row md:overflow-hidden">
-      <Link href="/dashboard" replace>
+      {/* <Link href="/dashboard" replace>
         Dashboard
-      </Link>
+      </Link> */}
       <div className="w-full flex-none md:w-64">
         <SideNav />
       </div>
